@@ -1,9 +1,27 @@
-let xp = 1 
+let xp = 7777
+let rank;
 let nome = "Gabs"
 
-// wait
+// Code
 
+if (xp <= 1000) {
+    rank = "Ferro";
+  } else if ( xp >= 1001 && xp <= 2000) {
+    rank = "Bronze";
+  } else if (xp >= 2001 && xp <= 5000) {
+    rank = "Prata";
+  } else if (xp >= 5001 && xp <= 7000) {
+    rank = "Ouro";
+  } else if (xp >= 7001 && xp <= 8000) {
+    rank = "Platina";
+  } else if (xp >= 8001 && xp <= 9000) {
+    rank = "Ascendente";
+  } else if (xp >= 9001 && xp <= 10000) {
+    rank = "Imortal";
+  } else {
+    rank = "Radiante";
+  }
 
 // Saída
 
-console.log("O " + nome + " está no nível de " + xp)
+console.log("O herói " + nome + " está no nível de " + rank)
