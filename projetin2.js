@@ -1,4 +1,4 @@
-calcRanked(88, 7)
+calcRanked(101, 7)
 
 function calcRanked(vit, def){
     return saldoDiff = (vit - def)
